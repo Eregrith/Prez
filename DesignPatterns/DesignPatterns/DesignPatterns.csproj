@@ -38,45 +38,124 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EPPlus, Version=4.5.2.1, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.4.5.2.1\lib\net40\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\MSTest.TestFramework.1.2.1\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\MSTest.TestFramework.1.2.1\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Nancy, Version=1.4.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nancy.1.4.5\lib\net40\Nancy.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.0\lib\net461\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractFactory\Legs\BlueLeftLeg.cs" />
-    <Compile Include="AbstractFactory\Bodies\BlueBody.cs" />
-    <Compile Include="AbstractFactory\Heads\BlueHead.cs" />
-    <Compile Include="AbstractFactory\Bodies\GreenBody.cs" />
-    <Compile Include="AbstractFactory\Heads\GreenHead.cs" />
-    <Compile Include="AbstractFactory\Bodies\Body.cs" />
-    <Compile Include="AbstractFactory\Chameleon.cs" />
-    <Compile Include="AbstractFactory\Legs\GreenLeftLeg.cs" />
-    <Compile Include="AbstractFactory\Legs\GreenRightLeg.cs" />
-    <Compile Include="AbstractFactory\Heads\Head.cs" />
-    <Compile Include="AbstractFactory\Legs\Leg.cs" />
-    <Compile Include="AbstractFactory\Legs\RedLeftLeg.cs" />
-    <Compile Include="AbstractFactory\Legs\RedLeg.cs" />
-    <Compile Include="AbstractFactory\Bodies\RedBody.cs" />
-    <Compile Include="AbstractFactory\Heads\RedHead.cs" />
-    <Compile Include="AbstractFactory\Solution\Factories\ColorlessChameleonFactory.cs" />
-    <Compile Include="AbstractFactory\Solution\Factories\BlueChameleonFactory.cs" />
-    <Compile Include="AbstractFactory\Solution\Factories\ChameleonFactory.cs" />
-    <Compile Include="AbstractFactory\Solution\Factories\GreenChameleonFactory.cs" />
-    <Compile Include="AbstractFactory\Solution\IntelligentChameleon.cs" />
-    <Compile Include="AbstractFactory\Solution\Factories\RedChameleonFactory.cs" />
-    <Compile Include="Builder\Contract.cs" />
-    <Compile Include="Builder\DayWorked.cs" />
-    <Compile Include="Builder\Employee.cs" />
-    <Compile Include="Builder\EmployeeTests.cs" />
-    <Compile Include="Builder\MoneyCurrency.cs" />
-    <Compile Include="Builder\Salary.cs" />
-    <Compile Include="Builder\Solution\EmployeeBuilder.cs" />
+    <Compile Include="01.AbstractFactory\Legs\BlueLeftLeg.cs" />
+    <Compile Include="01.AbstractFactory\Bodies\BlueBody.cs" />
+    <Compile Include="01.AbstractFactory\Heads\BlueHead.cs" />
+    <Compile Include="01.AbstractFactory\Bodies\GreenBody.cs" />
+    <Compile Include="01.AbstractFactory\Heads\GreenHead.cs" />
+    <Compile Include="01.AbstractFactory\Bodies\Body.cs" />
+    <Compile Include="01.AbstractFactory\Chameleon.cs" />
+    <Compile Include="01.AbstractFactory\Legs\GreenLeftLeg.cs" />
+    <Compile Include="01.AbstractFactory\Legs\GreenRightLeg.cs" />
+    <Compile Include="01.AbstractFactory\Heads\Head.cs" />
+    <Compile Include="01.AbstractFactory\Legs\Leg.cs" />
+    <Compile Include="01.AbstractFactory\Legs\RedLeftLeg.cs" />
+    <Compile Include="01.AbstractFactory\Legs\RedLeg.cs" />
+    <Compile Include="01.AbstractFactory\Bodies\RedBody.cs" />
+    <Compile Include="01.AbstractFactory\Heads\RedHead.cs" />
+    <Compile Include="01.AbstractFactory\Solution\Factories\ColorlessChameleonFactory.cs" />
+    <Compile Include="01.AbstractFactory\Solution\Factories\BlueChameleonFactory.cs" />
+    <Compile Include="01.AbstractFactory\Solution\Factories\ChameleonFactory.cs" />
+    <Compile Include="01.AbstractFactory\Solution\Factories\GreenChameleonFactory.cs" />
+    <Compile Include="01.AbstractFactory\Solution\IntelligentChameleon.cs" />
+    <Compile Include="01.AbstractFactory\Solution\Factories\RedChameleonFactory.cs" />
+    <Compile Include="02.Builder\Contract.cs" />
+    <Compile Include="02.Builder\DayWorked.cs" />
+    <Compile Include="02.Builder\Employee.cs" />
+    <Compile Include="02.Builder\EmployeeTests.cs" />
+    <Compile Include="02.Builder\MoneyCurrency.cs" />
+    <Compile Include="02.Builder\Salary.cs" />
+    <Compile Include="02.Builder\Solution\EmployeeBuilder.cs" />
+    <Compile Include="02.Builder\Solution\EmployeeTests.cs" />
+    <Compile Include="03.Adapter\SalaryReport.cs" />
+    <Compile Include="03.Adapter\Solution\Adapter\IExcelCell.cs" />
+    <Compile Include="03.Adapter\Solution\Adapter\IExcelFileProcessor.cs" />
+    <Compile Include="03.Adapter\Solution\Adapter\IExcelPackage.cs" />
+    <Compile Include="03.Adapter\Solution\Adapter\IExcelRange.cs" />
+    <Compile Include="03.Adapter\Solution\Adapter\IExcelWorkbook.cs" />
+    <Compile Include="03.Adapter\Solution\Adapter\IExcelWorksheet.cs" />
+    <Compile Include="03.Adapter\Solution\Adapter\IExcelWorksheets.cs" />
+    <Compile Include="03.Adapter\Solution\Adapter\IFileHelper.cs" />
+    <Compile Include="03.Adapter\Solution\Adapter\Implementation\AdaptedCell.cs" />
+    <Compile Include="03.Adapter\Solution\Adapter\Implementation\AdaptedExcelPackage.cs" />
+    <Compile Include="03.Adapter\Solution\Adapter\Implementation\AdaptedWorkbook.cs" />
+    <Compile Include="03.Adapter\Solution\Adapter\Implementation\AdaptedWorksheet.cs" />
+    <Compile Include="03.Adapter\Solution\Adapter\Implementation\AdaptedWorksheets.cs" />
+    <Compile Include="03.Adapter\Solution\SalaryReport.cs" />
+    <Compile Include="04.Composite\Container.cs" />
+    <Compile Include="04.Composite\ContainerOfContainers.cs" />
+    <Compile Include="04.Composite\HeavyContainer.cs" />
+    <Compile Include="04.Composite\NormalContainer.cs" />
+    <Compile Include="04.Composite\PaperContainer.cs" />
+    <Compile Include="04.Composite\ShippingCompany.cs" />
+    <Compile Include="04.Composite\Solution\CompositeContainer.cs" />
+    <Compile Include="04.Composite\Solution\CompositeShippingCompany.cs" />
+    <Compile Include="04.Composite\Solution\ContainerOfContainers.cs" />
+    <Compile Include="04.Composite\Solution\CompositeHeavyContainer.cs" />
+    <Compile Include="04.Composite\Solution\CompositeNormalContainer.cs" />
+    <Compile Include="04.Composite\Solution\CompositePaperContainer.cs" />
+    <Compile Include="05.Decorator\Solution\BorderDecorator.cs" />
+    <Compile Include="05.Decorator\Solution\HorizontalScrollBarDecorator.cs" />
+    <Compile Include="05.Decorator\Solution\IWindow.cs" />
+    <Compile Include="05.Decorator\Solution\SyntacticSugar.cs" />
+    <Compile Include="05.Decorator\Solution\Usage.cs" />
+    <Compile Include="05.Decorator\Solution\VerticalScrollBarDecorator.cs" />
+    <Compile Include="05.Decorator\Solution\Window.cs" />
+    <Compile Include="05.Decorator\Solution\WindowDecorator.cs" />
+    <Compile Include="05.Decorator\Window.cs" />
+    <Compile Include="06.Command\Api.cs" />
+    <Compile Include="06.Command\Service.cs" />
+    <Compile Include="06.Command\Solution\Commands\AbstractCommand.cs" />
+    <Compile Include="06.Command\Solution\Commands\CommandNotFound.cs" />
+    <Compile Include="06.Command\Solution\Commands\CreateEmployeeCommand.cs" />
+    <Compile Include="06.Command\Solution\Results\Error404Result.cs" />
+    <Compile Include="06.Command\Solution\Commands\GetAverageAgeOfEmployeesWithNameContainingCommand.cs" />
+    <Compile Include="06.Command\Solution\Commands\GetEmployeeNameCommand.cs" />
+    <Compile Include="06.Command\Solution\Results\IntegerResult.cs" />
+    <Compile Include="06.Command\Solution\IService.cs" />
+    <Compile Include="06.Command\Solution\NancyApi.cs" />
+    <Compile Include="06.Command\Solution\Results\Result.cs" />
+    <Compile Include="06.Command\Solution\Results\StringResult.cs" />
+    <Compile Include="06.Command\Solution\Results\SuccessResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Strategy\Employee.cs" />
+    <Compile Include="Strategy\ExportData.cs" />
+    <Compile Include="Strategy\Report.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
