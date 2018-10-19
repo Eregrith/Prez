@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.Strategy.Solution
+namespace DesignPatterns.Visitor
 {
-    public class StrategicReport
+    public abstract class Leaf
     {
     }
 }
