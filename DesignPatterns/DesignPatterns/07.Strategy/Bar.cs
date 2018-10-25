@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.Strategy
+namespace DesignPatterns.Seven
 {
     public class Bar
     {
@@ -12,7 +12,7 @@ namespace DesignPatterns.Strategy
         {
             Customer firstCustomer = new Customer();
 
-            firstCustomer.Add(1.0, 1);
+            firstCustomer.Add(price: 1.0, quantity: 1);
 
             firstCustomer.IsInHappyHour = true;
             firstCustomer.Add(1.0, 2);

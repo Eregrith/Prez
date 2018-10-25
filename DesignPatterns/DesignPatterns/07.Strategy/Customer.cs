@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DesignPatterns.Strategy
+namespace DesignPatterns.Seven
 {
     internal class Customer
     {
@@ -13,6 +13,9 @@ namespace DesignPatterns.Strategy
         }
 
         public bool IsInHappyHour { get; set; }
+        public bool IsNice { get; set; }
+        public bool IsMonday { get; set; }
+        public int DrinksInARow { get; set; }
 
         public void Add(double price, int quantity)
         {
@@ -20,6 +23,8 @@ namespace DesignPatterns.Strategy
 
             if (IsInHappyHour)
                 price *= 0.5;
+            if (IsNice)
+                price *= 0.9;
 
             _drinks.Add(price);
         }

@@ -76,7 +76,7 @@ namespace DesignPatterns.Visitor.Solution
             int sum = 0;
             foreach (VisitableLeaf l in leaves)
             {
-                l.Accept(visitor);
+                sum += l.Accept(visitor);
             }
             return sum;
         }

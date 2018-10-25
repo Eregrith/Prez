@@ -169,19 +169,19 @@
     <Compile Include="08.TemplateMethod\Solution\FaxingHealthChecker.cs" />
     <Compile Include="08.TemplateMethod\Solution\SensibleHealthChecker.cs" />
     <Compile Include="08.TemplateMethod\SystemHealthChecker.cs" />
-    <Compile Include="09.Visitor\Leaf.cs" />
-    <Compile Include="09.Visitor\Machine.cs" />
-    <Compile Include="09.Visitor\Node.cs" />
-    <Compile Include="09.Visitor\Solution\LeafVisitor.cs" />
-    <Compile Include="09.Visitor\Solution\LengthOfNamevisitor.cs" />
-    <Compile Include="09.Visitor\Solution\Machine.cs" />
-    <Compile Include="09.Visitor\Solution\SumOfNumericPropertiesVisitor.cs" />
-    <Compile Include="09.Visitor\Solution\User.cs" />
-    <Compile Include="09.Visitor\Solution\VisitableNode.cs" />
-    <Compile Include="09.Visitor\Solution\VisitableLeaf.cs" />
-    <Compile Include="09.Visitor\Solution\WeirdCalculator.cs" />
-    <Compile Include="09.Visitor\User.cs" />
-    <Compile Include="09.Visitor\WeirdCalculator.cs" />
+    <Compile Include="09\Leaf.cs" />
+    <Compile Include="09\Machine.cs" />
+    <Compile Include="09\Node.cs" />
+    <Compile Include="09\Solution\LeafVisitor.cs" />
+    <Compile Include="09\Solution\LengthOfNamevisitor.cs" />
+    <Compile Include="09\Solution\Machine.cs" />
+    <Compile Include="09\Solution\SumOfNumericPropertiesVisitor.cs" />
+    <Compile Include="09\Solution\User.cs" />
+    <Compile Include="09\Solution\VisitableNode.cs" />
+    <Compile Include="09\Solution\VisitableLeaf.cs" />
+    <Compile Include="09\Solution\WeirdCalculator.cs" />
+    <Compile Include="09\User.cs" />
+    <Compile Include="09\WeirdCalculator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

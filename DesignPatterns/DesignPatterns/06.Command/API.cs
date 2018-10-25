@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.Command
+namespace DesignPatterns.Six
 {
     public class Api
     {
@@ -15,10 +15,13 @@ namespace DesignPatterns.Command
             _service = new Service();
         }
 
-        public string GetEmployeeName(Guid id) => _service.GetEmployeeName(id);
+        public string GetEmployeeName(Guid id)
+            => _service.GetEmployeeName(id);
 
-        public int GetAverageAgeOfEmployeesWithNameContaining(string partOfName) => _service.GetAverageAgeOfEmployeesWithNameContaining(partOfName);
+        public int GetAverageAgeOfEmployeesWithNameContaining(string partOfName)
+            => _service.GetAverageAgeOfEmployeesWithNameContaining(partOfName);
 
-        public void CreateEmployee(string name, int age) => _service.CreateEmployee(name, age);
+        public void CreateEmployee(string name, int age)
+            => _service.CreateEmployee(name, age);
     }
 }

@@ -8,7 +8,7 @@ namespace DesignPatterns.Composite.Solution
 {
     public class CompositeShippingCompany
     {
-        public bool AreContainersTooHeavyForShit(CompositeContainer mainContainer, double maxWeight)
+        public bool AreContainersTooHeavyForShip(CompositeContainer mainContainer, double maxWeight)
         {
             if (mainContainer.Weight > maxWeight)
                 return true;

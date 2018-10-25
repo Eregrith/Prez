@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.Visitor
+namespace DesignPatterns.Nine
 {
     public class Machine : Leaf
     {

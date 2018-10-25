@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPatterns.Command
+namespace DesignPatterns.Six
 {
     internal class Service
     {

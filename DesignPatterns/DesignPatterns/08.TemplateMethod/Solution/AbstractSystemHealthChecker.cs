@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.TemplateMethod.Solution
+namespace DesignPatterns.Eight.Solution
 {
     public abstract class AbstractSystemHealthChecker
     {

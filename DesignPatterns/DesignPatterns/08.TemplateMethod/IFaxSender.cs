@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.TemplateMethod
+﻿namespace DesignPatterns.Eight
 {
     public interface IFaxSender
     {

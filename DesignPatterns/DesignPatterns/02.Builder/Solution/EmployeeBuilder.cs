@@ -29,7 +29,7 @@ namespace DesignPatterns.Builder.Solution
         {
             _currentlyBuiltEmployee.Salary = new Salary
             {
-                Amount = 500000,
+                Amount = v,
                 Currency = new MoneyCurrency
                 {
                     Label = "EUR",

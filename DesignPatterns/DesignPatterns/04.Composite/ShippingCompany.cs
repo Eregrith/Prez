@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.Composite
+namespace DesignPatterns.Four
 {
     public class ShippingCompany
     {
-        public bool AreContainersTooHeavyForShit(List<Container> containers, double maxWeight)
+        public bool AreContainersTooHeavyForShip(List<Container> containers, double maxWeight)
         {
             double sumWeight = SumWeightForContainers(containers);
             if (sumWeight > maxWeight)

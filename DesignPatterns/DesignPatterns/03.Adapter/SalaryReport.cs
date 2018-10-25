@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.Adapter
+namespace DesignPatterns.Three
 {
     public class SalaryReport
     {

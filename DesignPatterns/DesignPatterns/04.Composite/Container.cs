@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace DesignPatterns.Composite
+namespace DesignPatterns.Four
 {
     public class Container
     {
